@@ -8,6 +8,7 @@ import random
 import tensorflow as tf
 import numpy as np
 from keras.models import Sequential
+import io
 
 STAGE = "Base Model" ## <<< change stage name 
 
@@ -53,7 +54,13 @@ def main(config_path):
 
     model.compile(loss=LOSS_FUNCTION,optimizer=OPTIMIZER,metrics=METRICS)
     model.summary()
-    logging.info(model.summary())
+    def log_model_summaty(model):
+        with io.StringIO() as stream:
+            model.summary(print_fn= lambda x: stream.write(f"{x}\n"))
+            summary_str =stream.getvalue()
+        return summary_str
+
+    logging.info(f"base model summary : {log_model_summaty(model)}")
 
     #Train the model
     EPOCS=10
