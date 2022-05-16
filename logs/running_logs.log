@@ -1,0 +1,119 @@
+[2022-05-16 13:06:08,430: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:06:08,431: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:06:08,431: ERROR: 01_base_model]: main() missing 1 required positional argument: 'params_path'
+Traceback (most recent call last):
+  File "c:\Users\shubham\Desktop\Transfer_Learning\src\01_base_model.py", line 36, in <module>
+    main(config_path=parsed_args.config)
+TypeError: main() missing 1 required positional argument: 'params_path'
+[2022-05-16 13:21:51,864: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:21:51,864: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:21:51,864: ERROR: 01_base_model]: main() missing 1 required positional argument: 'params_path'
+Traceback (most recent call last):
+  File "src/01_base_model.py", line 36, in <module>
+    main(config_path=parsed_args.config)
+TypeError: main() missing 1 required positional argument: 'params_path'
+[2022-05-16 13:24:55,228: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:24:55,228: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:24:55,228: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:25:21,154: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:25:21,154: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:25:21,154: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:25:50,126: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:25:50,126: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:25:50,126: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:28:04,804: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:28:04,804: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:28:04,804: ERROR: 01_base_model]: main() missing 1 required positional argument: 'params_path'
+Traceback (most recent call last):
+  File "src/01_base_model.py", line 72, in <module>
+    main(config_path=parsed_args.config)
+TypeError: main() missing 1 required positional argument: 'params_path'
+[2022-05-16 13:30:14,087: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:30:14,087: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:30:14,099: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 13:30:15,466: ERROR: 01_base_model]: module 'keras.api._v2.keras.layers' has no attribute 'relu'
+Traceback (most recent call last):
+  File "src/01_base_model.py", line 72, in <module>
+    main(config_path=parsed_args.config)
+  File "src/01_base_model.py", line 45, in main
+    tf.keras.layers.relu(),
+AttributeError: module 'keras.api._v2.keras.layers' has no attribute 'relu'
+[2022-05-16 13:31:21,605: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:31:21,605: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:31:21,607: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 13:31:22,422: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:31:49,750: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:31:49,750: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:31:49,752: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 13:31:50,501: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:35:35,872: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:35:35,872: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:35:35,874: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 13:35:36,686: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:40:23,145: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:40:23,146: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:40:23,147: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 13:40:23,894: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:42:40,444: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:42:40,444: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:42:40,445: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 13:43:49,532: INFO: 01_base_model]: base model is saved st : artifacts\saved_models\base_model.h5
+[2022-05-16 13:43:49,569: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 13:46:43,341: INFO: 01_base_model]: 
+********************
+[2022-05-16 13:46:43,341: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 13:46:43,343: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 13:46:44,095: INFO: 01_base_model]: None
+[2022-05-16 13:47:25,131: INFO: 01_base_model]: base model is saved st : artifacts\saved_models\base_model.h5
+[2022-05-16 13:47:25,668: INFO: 01_base_model]: >>>>>>> Model evaluation : [0.1287013739347458, 0.9609000086784363]
+[2022-05-16 13:47:25,706: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+
+[2022-05-16 16:00:53,969: INFO: 01_base_model]: 
+********************
+[2022-05-16 16:00:53,969: INFO: 01_base_model]: >>>>> stage Base Model started <<<<<
+[2022-05-16 16:00:53,972: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-05-16 16:00:54,952: INFO: 01_base_model]: base model summary : Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_layer (Flatten)        (None, 784)               0         
+_________________________________________________________________
+hidddenlayer1 (Dense)        (None, 300)               235500    
+_________________________________________________________________
+leaky_re_lu (LeakyReLU)      (None, 300)               0         
+_________________________________________________________________
+hidddenlayer2 (Dense)        (None, 100)               30100     
+_________________________________________________________________
+re_lu (ReLU)                 (None, 100)               0         
+_________________________________________________________________
+output_layer (Dense)         (None, 10)                1010      
+=================================================================
+Total params: 266,610
+Trainable params: 266,610
+Non-trainable params: 0
+_________________________________________________________________
+
+[2022-05-16 16:01:37,599: INFO: 01_base_model]: base model is saved st : artifacts\saved_models\base_model.h5
+[2022-05-16 16:01:38,180: INFO: 01_base_model]: >>>>>>> Model evaluation : [0.1287013739347458, 0.9609000086784363]
+[2022-05-16 16:01:38,233: INFO: 01_base_model]: >>>>> stage Base Model completed!<<<<<
+

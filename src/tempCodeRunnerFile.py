@@ -1,0 +1,1 @@
+path_to_dir=os.path.join("artifacts","saved_models")
